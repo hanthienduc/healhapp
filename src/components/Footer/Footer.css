@@ -1,0 +1,14 @@
+.footer {
+  margin-top: 64px;
+  padding: 56px 0px 56px 100px;
+  background-color: var(--black-main);
+}
+
+.footer-list {
+  display: flex;
+}
+
+.footer-link {
+  margin-left: 56px;
+  font-size: 11px;
+}
