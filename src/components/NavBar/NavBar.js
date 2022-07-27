@@ -22,7 +22,7 @@ function NavBar() {
             </div>
             <nav className="navbar">
                 <ul className="navbar-list">
-                    <CustomListItem to={'/'} src={icon_memo} text={'自分の記録'} />
+                    <CustomListItem to={'myrecord'} src={icon_memo} text={'自分の記録'} />
                     <CustomListItem to={'/'} src={icon_challenge} text={'チャレンジ'} />
                     <CustomListItem to={'/'} src={icon_info} text={'お知らせ'} />
                     <div className='dropdown-menu'>

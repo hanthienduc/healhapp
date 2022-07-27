@@ -1,5 +1,6 @@
 import TopButton from "../components/TopButon/TopButton"
 import TopMain from "../components/TopMain/TopMain"
+import TopPhotos from "../components/TopPhotos/TopPhotos"
 
 function Top() {
 
@@ -7,6 +8,7 @@ function Top() {
         <div className="top">
             <TopMain />
             <TopButton />
+            <TopPhotos />
         </div>
     )
 }

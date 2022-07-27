@@ -1,0 +1,40 @@
+.my-record-diary {
+  color: var(--black-main);
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  grid-gap: 12px;
+}
+.diary-title {
+  margin-top: 56px;
+  font-family: var(--font-inter);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 27px;
+  letter-spacing: 0.11px;
+  color: var(--black-main);
+  height: 32px;
+}
+.diary-item {
+  border: 2px solid #707070;
+  padding: 16px;
+}
+
+.diary-item .item-date {
+  font-family: var(--font-inter);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  letter-spacing: 0.09px;
+}
+
+.diary-item .item-text {
+  font-family: var(--font-noto);
+  font-style: normal;
+  font-weight: 300;
+  font-size: 12px;
+  line-height: 17px;
+  letter-spacing: 0.06px;
+  margin-bottom: 12px;
+}

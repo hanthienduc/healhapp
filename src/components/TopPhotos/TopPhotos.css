@@ -1,0 +1,32 @@
+.photos-container {
+  max-width: 960px;
+  width: 100%;
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  grid-gap: 8px;
+  margin: 25px auto;
+  font-family: var(--font-inter);
+}
+
+.photo-item {
+  position: relative;
+}
+
+.photo-item p {
+  position: absolute;
+  z-index: 1;
+  bottom: 4px;
+  background-color: var(--primary-logo-icon);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 18px;
+  letter-spacing: 0.15px;
+  padding: 7px 10px 7px 8px;
+}
+
+.photo-item img {
+  width: 100%;
+  object-fit: cover;
+  height: 234px;
+}

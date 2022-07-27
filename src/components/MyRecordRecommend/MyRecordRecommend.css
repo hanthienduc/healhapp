@@ -1,0 +1,57 @@
+.my-record-recommend {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-gap: 48px;
+}
+
+.recommend-item {
+  height: 288px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  background-color: #ffcc21;
+}
+
+.recommend-item img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.recommend-description {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: var(--font-inter);
+  line-height: 30px;
+  letter-spacing: 0.125px;
+  color: var(--primary-logo-icon);
+  background-color: rgba(0, 0, 0, 0.25);
+}
+
+.recommend-description .title {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 25px;
+}
+
+.recommend-description .description {
+  margin-top: 10px;
+  width: 160px;
+  height: 24px;
+  text-align: center;
+  font-family: var(--font-noto);
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 20px;
+  color: var(--white);
+  background: var(--primary-notification);
+}

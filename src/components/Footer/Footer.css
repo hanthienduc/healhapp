@@ -6,9 +6,9 @@
 
 .footer-list {
   display: flex;
+  justify-content: space-around;
 }
 
 .footer-link {
-  margin-left: 56px;
   font-size: 11px;
 }
