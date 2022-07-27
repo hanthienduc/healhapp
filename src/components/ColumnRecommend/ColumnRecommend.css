@@ -4,6 +4,9 @@
   background-color: var(--black-background);
   height: 144px;
   cursor: pointer;
+  justify-content: center;
+  align-items: center;
+  padding: 24px 8px;
 }
 
 .recommend-item .item-title {

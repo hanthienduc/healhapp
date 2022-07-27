@@ -4,7 +4,8 @@
   justify-content: space-around;
   align-items: center;
   padding: 10px;
-  margin: 0 auto;
+  margin: 22px auto;
+  cursor: pointer;
 }
 
 .hexagon-container {
@@ -15,7 +16,6 @@
   position: relative;
   overflow: hidden;
   background: transparent;
-  cursor: pointer;
   width: 117px;
   height: 116px;
   transform: rotate(-30deg) skewX(30deg) scaleY(0.866);

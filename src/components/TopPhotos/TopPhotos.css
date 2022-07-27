@@ -13,9 +13,11 @@
 }
 
 .photo-item p {
+  width: 120px;
   position: absolute;
+  font-family: var(--font-inter);
   z-index: 1;
-  bottom: 4px;
+  bottom: 3px;
   background-color: var(--primary-logo-icon);
   font-style: normal;
   font-weight: 400;

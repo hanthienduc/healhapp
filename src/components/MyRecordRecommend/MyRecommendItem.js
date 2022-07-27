@@ -1,6 +1,6 @@
 function MyRecommendItem(props) {
     return (
-        <div className="recommend-item">
+        <div className="my-record-recommend-item">
             <img src={props.img} alt={props.title} />
             <div className="recommend-description">
                 <p className="title">{props.title}</p>
