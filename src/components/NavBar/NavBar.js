@@ -6,26 +6,12 @@ import icon_menu from '../../assets/menu-icon/icon_menu.png'
 import icon_close from '../../assets/menu-icon/icon_close.png'
 import icon_challenge from '../../assets/menu-icon/icon_challenge.png'
 import "./NavBar.css"
-import CustomListItem from './CustomListItem'
-import { useState } from 'react'
+import useNavBar from '../../hooks/useNavBar'
+import CustomListItem from '../../utils/CustomListItem'
 
 function NavBar() {
-    const [isShownDropDown, setIsShownDropDown] = useState(false)
-    const [noticeCount, setNoticeCount] = useState(1)
-    const [dropdownStyle, setDropDownStyle] = useState({
-        'display': 'none',
-        'height': '0px'
-    })
 
-    function toggleDropDown(e) {
-        setIsShownDropDown((prevState) => !prevState)
-        setDropDownStyle((prevStyle) => {
-            return {
-                'display': prevStyle.display === 'none' ? 'block' : 'none',
-                'height': prevStyle.height === '0px' ? 'auto' : '0px'
-            }
-        })
-    }
+    const { isShownDropDown, noticeCount, dropdownStyle, toggleDropDown } = useNavBar()
 
     return (
         <header className='header'>
@@ -47,9 +33,9 @@ function NavBar() {
                             alt={'menu'} />
                         <ul className='dropdown-list' style={dropdownStyle}  >
                             <li><Link to={'myrecord'}>自分の記録</Link></li>
-                            <li><Link to={''}>体重グラフ</Link></li>
-                            <li><Link to={''}>目標</Link></li>
-                            <li><Link to={''}>選択中のコース</Link></li>
+                            <li><Link to={'myrecord'}>体重グラフ</Link></li>
+                            <li><Link to={'myrecord'}>目標</Link></li>
+                            <li><Link to={'myrecord'}>選択中のコース</Link></li>
                             <li><Link to={'/column'}>コラム一覧</Link></li>
                             <li><Link to={''}>設定</Link></li>
                         </ul>

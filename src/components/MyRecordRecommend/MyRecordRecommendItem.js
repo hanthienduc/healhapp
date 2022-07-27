@@ -1,4 +1,4 @@
-function MyRecommendItem(props) {
+function MyRecordRecommendItem(props) {
     return (
         <div className="my-record-recommend-item">
             <img src={props.img} alt={props.title} />
@@ -10,4 +10,4 @@ function MyRecommendItem(props) {
     )
 }
 
-export default MyRecommendItem
+export default MyRecordRecommendItem

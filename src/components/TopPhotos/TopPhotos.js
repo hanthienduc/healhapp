@@ -1,10 +1,10 @@
 import photoData from "../../photoData"
-import PhotoItem from "./PhotoItem"
+import TopPhotoItem from "./TopPhotoItem"
 import './TopPhotos.css'
 function TopPhotos() {
 
     const photoElements = photoData.map(photo =>
-        <PhotoItem
+        <TopPhotoItem
             key={photo.id}
             img={photo.img}
             date={photo.date}

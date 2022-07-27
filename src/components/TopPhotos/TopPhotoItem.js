@@ -1,4 +1,4 @@
-function PhotoItem(props) {
+function TopPhotoItem(props) {
     return (
         <div className="photo-item">
             <img src={props.img} alt={props.eatingTime} />
@@ -9,4 +9,4 @@ function PhotoItem(props) {
     )
 }
 
-export default PhotoItem
+export default TopPhotoItem
