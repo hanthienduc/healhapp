@@ -7,6 +7,7 @@
 .main-photo {
   max-width: 540px;
   width: 100%;
+  position: relative;
 }
 
 .main-photo img {
@@ -18,4 +19,35 @@
 .main-graph {
   width: 100%;
   background-color: var(--black-background);
+}
+
+.main-photo .progress {
+  width: 100%;
+  height: 100%;
+  top: 0;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.progress span {
+  width: 100%;
+  height: 100%;
+  margin-right: 12px;
+  position: absolute;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  left: -51px;
+}
+
+.progress h3 {
+  font-family: var(--font-inter);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 30px;
+  text-align: center;
+  color: var(--white);
 }

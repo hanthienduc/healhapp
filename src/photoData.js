@@ -3,7 +3,8 @@ const photoData = [
         id: '1',
         img: '../../assets/top-main/m01.jpg',
         eatingTime: 'Morning',
-        date: '2022-05-21'
+        date: '2022-05-21',
+        achieverate: '75',
     },
     {
         id: '2',
