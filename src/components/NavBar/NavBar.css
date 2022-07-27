@@ -53,6 +53,7 @@
   background-color: var(--gray);
   display: flex;
   flex-direction: column;
+  z-index: 1;
 }
 
 .dropdown-list li {

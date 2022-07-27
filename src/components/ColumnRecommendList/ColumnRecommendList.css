@@ -1,0 +1,44 @@
+.column-recommend-list-item {
+}
+
+.list-item-photo {
+  position: relative;
+}
+
+.list-item-photo img {
+  width: 100%;
+  height: 144px;
+}
+
+.list-item-photo p {
+  font-family: var(--font-inter);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 30px;
+  position: absolute;
+  bottom: 4.5px;
+  background: var(--primary-logo-icon);
+  color: var(--white);
+}
+
+.list-item-description .description-text {
+  font-family: var(--font-noto);
+  font-style: normal;
+  font-weight: 300;
+  font-size: 15px;
+  line-height: 22px;
+  letter-spacing: 0.075px;
+  color: var(--black-main);
+}
+
+.list-item-description .description-tags {
+  font-family: var(--font-noto);
+  font-style: normal;
+  font-weight: 300;
+  font-size: 12px;
+  line-height: 22px;
+  letter-spacing: 0.06px;
+  color: var(--primary-notification);
+  margin-bottom: 18px;
+}

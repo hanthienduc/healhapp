@@ -6,12 +6,12 @@ import './MyRecord.css'
 function MyRecord() {
 
     return (
-        <div className="my-record">
+        <main className="my-record">
             <MyRecordRecommend />
             <MyRecordGraph />
             <MyRecordExercise />
             <MyRecordDiary />
-        </div>
+        </main>
     )
 }
 

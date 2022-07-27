@@ -5,11 +5,11 @@ import TopPhotos from "../components/TopPhotos/TopPhotos"
 function Top() {
 
     return (
-        <div className="top">
+        <main className="top">
             <TopMain />
             <TopButton />
             <TopPhotos />
-        </div>
+        </main>
     )
 }
 
