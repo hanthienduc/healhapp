@@ -5,7 +5,6 @@ import ColumnRecommendData from '../ColumnRecommendData'
 import ColumnRecommendItem from '../components/ColumnRecommend/ColumnRecommendItem'
 import ColumnRecommendListItem from '../components/ColumnRecommendList/ColumnRecommendListItem'
 import { useEffect, useState } from 'react'
-import { nanoid } from 'nanoid'
 
 function Column() {
 
@@ -30,7 +29,7 @@ function Column() {
 
     const recommendCategoriesElement = recommendCategories.map(category => (
         <ColumnRecommendItem
-            key={nanoid()}
+            key={category.id}
             id={category.id}
             title={category.title}
             subtitle={category.subtitle} />
@@ -38,7 +37,7 @@ function Column() {
 
     const currentSelectCategoryListElements = currentSelectCategory?.recommendList?.map(item => {
         return <ColumnRecommendListItem
-            key={nanoid()}
+            key={item.id}
             id={item.id}
             img={item.img}
             date={item.date}

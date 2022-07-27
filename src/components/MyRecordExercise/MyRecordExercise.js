@@ -3,11 +3,11 @@ import MyExerciseData from '../../MyExerciseData'
 import { useEffect, useState } from 'react'
 import MyRecordExerciseItem from './MyRecordExerciseItem'
 function MyRecordExercise() {
-    const [exerciseData, setExerciseData] = useState()
+    const [exerciseData, setExerciseData] = useState(MyExerciseData[0])
 
     useEffect(() => {
         setExerciseData(MyExerciseData[0])
-    }, [])
+    }, [exerciseData])
     const exerciseItemElements = exerciseData.exerciseLogs.map((item) => {
         return <MyRecordExerciseItem
             category={item.category}
