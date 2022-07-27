@@ -1,5 +1,95 @@
 .my-record-exercise {
-  height: 304px;
   margin-top: 56px;
   background-color: var(--black-main);
+  padding: 16px 24px;
+}
+.title {
+  font-family: var(--font-inter);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 18px;
+  letter-spacing: 0.15px;
+  color: var(--white);
+  display: flex;
+  align-items: center;
+}
+
+.title span {
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 27px;
+  letter-spacing: 0.11px;
+  margin-left: 16px;
+}
+.record-exercise-list {
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-column-gap: 36px;
+  overflow-y: scroll;
+  height: 304px;
+  margin-top: 4px;
+}
+
+.dot {
+  font-size: 6px;
+  margin-right: 8px;
+}
+
+.my-record-exercise-item {
+  border-bottom: 1px solid #777777;
+  margin-bottom: 8px;
+}
+
+.exercise-item-title {
+  display: flex;
+  justify-content: space-between;
+  font-size: 15px;
+}
+
+.exercise-item-title .title-left {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: var(--font-noto);
+  font-style: normal;
+  font-weight: 300;
+  line-height: 22px;
+  letter-spacing: 0.075px;
+}
+.exercise-item-title .title-right {
+  color: var(--primary-logo-icon);
+  font-family: var(--font-inter);
+  font-style: normal;
+  font-weight: 400;
+  line-height: 18px;
+}
+.calories {
+  margin-left: 14px;
+  color: var(--primary-logo-icon);
+  font-family: var(--font-inter);
+  font-style: normal;
+  font-weight: 400;
+  line-height: 18px;
+}
+
+/* width */
+.record-exercise-list::-webkit-scrollbar {
+  width: 6px;
+}
+
+/* Track */
+.record-exercise-list::-webkit-scrollbar-track {
+  background: var(--gray);
+}
+
+/* Handle */
+.record-exercise-list::-webkit-scrollbar-thumb {
+  background: var(--primary-logo-icon);
+  border-radius: 3px;
+}
+
+/* Handle on hover */
+.record-exercise-list::-webkit-scrollbar-thumb:hover {
+  background: #555;
 }

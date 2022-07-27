@@ -10,7 +10,7 @@ function Top() {
             <TopMain />
             <TopButton />
             <TopPhotos />
-            <SeeMoreButton />
+            <SeeMoreButton title={'記録'} />
         </main>
     )
 }
