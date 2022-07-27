@@ -46,7 +46,7 @@ function NavBar() {
                             src={isShownDropDown ? icon_close : icon_menu}
                             alt={'menu'} />
                         <ul className='dropdown-list' style={dropdownStyle}  >
-                            <li><Link to={'/'}>自分の記録</Link></li>
+                            <li><Link to={'myrecord'}>自分の記録</Link></li>
                             <li><Link to={'/'}>体重グラフ</Link></li>
                             <li><Link to={'/'}>目標</Link></li>
                             <li><Link to={'/'}>選択中のコース</Link></li>

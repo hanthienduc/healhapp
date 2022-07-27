@@ -1,5 +1,6 @@
 .button-container {
-  width: 90%;
+  max-width: 920px;
+  width: 100%;
   display: flex;
   justify-content: space-around;
   align-items: center;
