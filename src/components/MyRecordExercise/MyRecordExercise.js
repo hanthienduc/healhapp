@@ -2,6 +2,8 @@ import './MyRecordExercise.css'
 import MyExerciseData from '../../MyExerciseData'
 import { useEffect, useState } from 'react'
 import MyRecordExerciseItem from './MyRecordExerciseItem'
+import { nanoid } from 'nanoid'
+
 function MyRecordExercise() {
     const [exerciseData, setExerciseData] = useState(MyExerciseData[0])
 
@@ -10,6 +12,7 @@ function MyRecordExercise() {
     }, [exerciseData])
     const exerciseItemElements = exerciseData.exerciseLogs.map((item) => {
         return <MyRecordExerciseItem
+            key={nanoid()}
             category={item.category}
             type={item.type}
             difficulty_level={item.difficulty_level}

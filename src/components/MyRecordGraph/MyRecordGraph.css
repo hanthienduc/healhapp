@@ -2,4 +2,39 @@
   background-color: var(--black-main);
   height: 304px;
   margin-top: 56px;
+  padding: 16px 24px;
+}
+.graph-container {
+  height: 200px;
+}
+.record-title {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.date-select {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  width: 34%;
+}
+.date-select-btn {
+  border: none;
+  background: var(--white);
+  border-radius: 11px;
+  color: var(--primary-logo-icon);
+  width: 56px;
+  height: 24px;
+  font-family: var(--font-noto);
+  font-style: normal;
+  font-weight: 300;
+  font-size: 15px;
+  cursor: pointer;
+}
+.date-select-btn:hover {
+  background-color: var(--primary-logo-icon);
+  color: var(--white);
+}
+.active {
+  background-color: var(--primary-logo-icon);
+  color: var(--white);
 }
