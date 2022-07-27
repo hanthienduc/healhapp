@@ -26,6 +26,7 @@
   - !['Footer'](./src/assets/captures/movetop.png)
   - Move Top Button was using across all of the page
 - Top (page) (Component)
+  - How to access -> Menu -> logo icon and other not existed page
   - !['Top Page'](./src/assets/captures/top-page.png)
   - TopMain (component)
     - !['Top Main'](./src/assets/captures/topmain.png)
@@ -34,6 +35,7 @@
   - TopPhotos (component)
     - !['Top Photos'](./src/assets/captures/top-photos.png)
 - - My Record page (page)
+  - How to access -> Menu -> 自分の記録
   - !['My Record'](./src/assets/captures/my-record-page.png)
   - MyRecordRecommend (component)
     - !['My Record Recommend'](./src/assets/captures/my-record-recommend.png)
@@ -46,6 +48,8 @@
   - useRecordData (Hooks)
     - This hook was using the top page record graph and my page body record graph
 - Column page (page)
+  - How to access -> Hamburger Icon -> コラム一覧
+    - !['Column Recommend'](./src/assets/captures/dropdown.png)
   - !['Column Page'](./src/assets/captures/column-page.png)
   - ColumnRecommend (component)
     - !['Column Recommend'](./src/assets/captures/column-recommend.png)
