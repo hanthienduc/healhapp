@@ -6,7 +6,7 @@ const ColumnRecommendData = [
         recommendList: [
             {
                 id: '1',
-                img: '../../assets/column/column-1.jpg',
+                img: '../../images/column/column-1.jpg',
                 date: '2021.05.17',
                 time: '23:25',
                 description: '魚を食べて頭もカラダも元気に！知っておきたい魚を食べるメリ…',
@@ -14,7 +14,7 @@ const ColumnRecommendData = [
             },
             {
                 id: '2',
-                img: '../../assets/column/column-2.jpg',
+                img: '../../images/column/column-2.jpg',
                 date: '2021.05.17',
                 time: '23:25',
                 description: '魚を食べて頭もカラダも元気に！知っておきたい魚を食べるメリ…',
@@ -22,7 +22,7 @@ const ColumnRecommendData = [
             },
             {
                 id: '3',
-                img: '../../assets/column/column-3.jpg',
+                img: '../../images/column/column-3.jpg',
                 date: '2021.05.17',
                 time: '23:25',
                 description: '魚を食べて頭もカラダも元気に！知っておきたい魚を食べるメリ…',
@@ -30,7 +30,7 @@ const ColumnRecommendData = [
             },
             {
                 id: '4',
-                img: '../../assets/column/column-4.jpg',
+                img: '../../images/column/column-4.jpg',
                 date: '2021.05.17',
                 time: '23:25',
                 description: '魚を食べて頭もカラダも元気に！知っておきたい魚を食べるメリ…',
@@ -38,7 +38,7 @@ const ColumnRecommendData = [
             },
             {
                 id: '5',
-                img: '../../assets/column/column-5.jpg',
+                img: '../../images/column/column-5.jpg',
                 date: '2021.05.17',
                 time: '23:25',
                 description: '魚を食べて頭もカラダも元気に！知っておきたい魚を食べるメリ…',
@@ -46,7 +46,7 @@ const ColumnRecommendData = [
             },
             {
                 id: '6',
-                img: '../../assets/column/column-6.jpg',
+                img: '../../images/column/column-6.jpg',
                 date: '2021.05.17',
                 time: '23:25',
                 description: '魚を食べて頭もカラダも元気に！知っておきたい魚を食べるメリ…',
@@ -54,7 +54,7 @@ const ColumnRecommendData = [
             },
             {
                 id: '7',
-                img: '../../assets/column/column-7.jpg',
+                img: '../../images/column/column-7.jpg',
                 date: '2021.05.17',
                 time: '23:25',
                 description: '魚を食べて頭もカラダも元気に！知っておきたい魚を食べるメリ…',
@@ -62,7 +62,7 @@ const ColumnRecommendData = [
             },
             {
                 id: '8',
-                img: '../../assets/column/column-8.jpg',
+                img: '../../images/column/column-8.jpg',
                 date: '2021.05.17',
                 time: '23:25',
                 description: '魚を食べて頭もカラダも元気に！知っておきたい魚を食べるメリ…',
@@ -78,7 +78,7 @@ const ColumnRecommendData = [
         recommendList: [
             {
                 id: '1',
-                img: '../../assets/column/column-1.jpg',
+                img: '../../images/column/column-1.jpg',
                 date: '2021.05.17',
                 time: '23:25',
                 description: '魚を食べて頭もカラダも元気に！知っておきたい魚を食べるメリ…',
@@ -86,7 +86,7 @@ const ColumnRecommendData = [
             },
             {
                 id: '2',
-                img: '../../assets/column/column-2.jpg',
+                img: '../../images/column/column-2.jpg',
                 date: '2021.05.17',
                 time: '23:25',
                 description: '魚を食べて頭もカラダも元気に！知っておきたい魚を食べるメリ…',
@@ -94,7 +94,7 @@ const ColumnRecommendData = [
             },
             {
                 id: '3',
-                img: '../../assets/column/column-3.jpg',
+                img: '../../images/column/column-3.jpg',
                 date: '2021.05.17',
                 time: '23:25',
                 description: '魚を食べて頭もカラダも元気に！知っておきたい魚を食べるメリ…',
@@ -102,7 +102,7 @@ const ColumnRecommendData = [
             },
             {
                 id: '4',
-                img: '../../assets/column/column-4.jpg',
+                img: '../../images/column/column-4.jpg',
                 date: '2021.05.17',
                 time: '23:25',
                 description: '魚を食べて頭もカラダも元気に！知っておきたい魚を食べるメリ…',
@@ -110,7 +110,7 @@ const ColumnRecommendData = [
             },
             {
                 id: '5',
-                img: '../../assets/column/column-5.jpg',
+                img: '../../images/column/column-5.jpg',
                 date: '2021.05.17',
                 time: '23:25',
                 description: '魚を食べて頭もカラダも元気に！知っておきたい魚を食べるメリ…',
@@ -118,7 +118,7 @@ const ColumnRecommendData = [
             },
             {
                 id: '6',
-                img: '../../assets/column/column-6.jpg',
+                img: '../../images/column/column-6.jpg',
                 date: '2021.05.17',
                 time: '23:25',
                 description: '魚を食べて頭もカラダも元気に！知っておきたい魚を食べるメリ…',
@@ -126,7 +126,7 @@ const ColumnRecommendData = [
             },
             {
                 id: '7',
-                img: '../../assets/column/column-7.jpg',
+                img: '../../images/column/column-7.jpg',
                 date: '2021.05.17',
                 time: '23:25',
                 description: '魚を食べて頭もカラダも元気に！知っておきたい魚を食べるメリ…',
@@ -134,7 +134,7 @@ const ColumnRecommendData = [
             },
             {
                 id: '8',
-                img: '../../assets/column/column-8.jpg',
+                img: '../../images/column/column-8.jpg',
                 date: '2021.05.17',
                 time: '23:25',
                 description: '魚を食べて頭もカラダも元気に！知っておきたい魚を食べるメリ…',
@@ -150,7 +150,7 @@ const ColumnRecommendData = [
         recommendList: [
             {
                 id: '1',
-                img: '../../assets/column/-1.jpg',
+                img: '../../images/column/-1.jpg',
                 date: '2021.05.17',
                 time: '23:25',
                 description: '魚を食べて頭もカラダも元気に！知っておきたい魚を食べるメリ…',
@@ -158,7 +158,7 @@ const ColumnRecommendData = [
             },
             {
                 id: '2',
-                img: '../../assets/column/column-2.jpg',
+                img: '../../images/column/column-2.jpg',
                 date: '2021.05.17',
                 time: '23:25',
                 description: '魚を食べて頭もカラダも元気に！知っておきたい魚を食べるメリ…',
@@ -166,7 +166,7 @@ const ColumnRecommendData = [
             },
             {
                 id: '3',
-                img: '../../assets/column/column-3.jpg',
+                img: '../../images/column/column-3.jpg',
                 date: '2021.05.17',
                 time: '23:25',
                 description: '魚を食べて頭もカラダも元気に！知っておきたい魚を食べるメリ…',
@@ -174,7 +174,7 @@ const ColumnRecommendData = [
             },
             {
                 id: '4',
-                img: '../../assets/column/column-4.jpg',
+                img: '../../images/column/column-4.jpg',
                 date: '2021.05.17',
                 time: '23:25',
                 description: '魚を食べて頭もカラダも元気に！知っておきたい魚を食べるメリ…',
@@ -182,7 +182,7 @@ const ColumnRecommendData = [
             },
             {
                 id: '5',
-                img: '../../assets/column/column-5.jpg',
+                img: '../../images/column/column-5.jpg',
                 date: '2021.05.17',
                 time: '23:25',
                 description: '魚を食べて頭もカラダも元気に！知っておきたい魚を食べるメリ…',
@@ -190,7 +190,7 @@ const ColumnRecommendData = [
             },
             {
                 id: '6',
-                img: '../../assets/column/column-6.jpg',
+                img: '../../images/column/column-6.jpg',
                 date: '2021.05.17',
                 time: '23:25',
                 description: '魚を食べて頭もカラダも元気に！知っておきたい魚を食べるメリ…',
@@ -198,7 +198,7 @@ const ColumnRecommendData = [
             },
             {
                 id: '7',
-                img: '../../assets/column/column-7.jpg',
+                img: '../../images/column/column-7.jpg',
                 date: '2021.05.17',
                 time: '23:25',
                 description: '魚を食べて頭もカラダも元気に！知っておきたい魚を食べるメリ…',
@@ -206,7 +206,7 @@ const ColumnRecommendData = [
             },
             {
                 id: '8',
-                img: '../../assets/column/column-8.jpg',
+                img: '../../images/column/column-8.jpg',
                 date: '2021.05.17',
                 time: '23:25',
                 description: '魚を食べて頭もカラダも元気に！知っておきたい魚を食べるメリ…',
@@ -222,7 +222,7 @@ const ColumnRecommendData = [
         recommendList: [
             {
                 id: '1',
-                img: '../../assets/column/column-1.jpg',
+                img: '../../images/column/column-1.jpg',
                 date: '2021.05.17',
                 time: '23:25',
                 description: '魚を食べて頭もカラダも元気に！知っておきたい魚を食べるメリ…',
@@ -230,7 +230,7 @@ const ColumnRecommendData = [
             },
             {
                 id: '2',
-                img: '../../assets/column/column-2.jpg',
+                img: '../../images/column/column-2.jpg',
                 date: '2021.05.17',
                 time: '23:25',
                 description: '魚を食べて頭もカラダも元気に！知っておきたい魚を食べるメリ…',
@@ -238,7 +238,7 @@ const ColumnRecommendData = [
             },
             {
                 id: '3',
-                img: '../../assets/column/column-3.jpg',
+                img: '../../images/column/column-3.jpg',
                 date: '2021.05.17',
                 time: '23:25',
                 description: '魚を食べて頭もカラダも元気に！知っておきたい魚を食べるメリ…',
@@ -246,7 +246,7 @@ const ColumnRecommendData = [
             },
             {
                 id: '4',
-                img: '../../assets/column/column-4.jpg',
+                img: '../../images/column/column-4.jpg',
                 date: '2021.05.17',
                 time: '23:25',
                 description: '魚を食べて頭もカラダも元気に！知っておきたい魚を食べるメリ…',
@@ -254,7 +254,7 @@ const ColumnRecommendData = [
             },
             {
                 id: '5',
-                img: '../../assets/column/column-5.jpg',
+                img: '../../images/column/column-5.jpg',
                 date: '2021.05.17',
                 time: '23:25',
                 description: '魚を食べて頭もカラダも元気に！知っておきたい魚を食べるメリ…',
@@ -262,7 +262,7 @@ const ColumnRecommendData = [
             },
             {
                 id: '6',
-                img: '../../assets/column/column-6.jpg',
+                img: '../../images/column/column-6.jpg',
                 date: '2021.05.17',
                 time: '23:25',
                 description: '魚を食べて頭もカラダも元気に！知っておきたい魚を食べるメリ…',
@@ -270,7 +270,7 @@ const ColumnRecommendData = [
             },
             {
                 id: '7',
-                img: '../../assets/column/column-7.jpg',
+                img: '../../images/column/column-7.jpg',
                 date: '2021.05.17',
                 time: '23:25',
                 description: '魚を食べて頭もカラダも元気に！知っておきたい魚を食べるメリ…',
@@ -278,7 +278,7 @@ const ColumnRecommendData = [
             },
             {
                 id: '8',
-                img: '../../assets/column/column-8.jpg',
+                img: '../../images/column/column-8.jpg',
                 date: '2021.05.17',
                 time: '23:25',
                 description: '魚を食べて頭もカラダも元気に！知っておきたい魚を食べるメリ…',

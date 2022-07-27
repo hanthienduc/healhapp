@@ -4,7 +4,11 @@ import './TopPhotos.css'
 function TopPhotos() {
 
     const photoElements = photoData.map(photo =>
-        <PhotoItem key={photo.id} img={photo.img} date={photo.date} eatingTime={photo.eatingTime} />
+        <PhotoItem
+            key={photo.id}
+            img={photo.img}
+            date={photo.date}
+            eatingTime={photo.eatingTime} />
     )
 
     return (
