@@ -41,6 +41,10 @@
   margin: 0 2.5rem 0 1rem;
 }
 
+.link-active {
+  color: #ea6c00;
+}
+
 .dropdown-menu {
   position: relative;
 }

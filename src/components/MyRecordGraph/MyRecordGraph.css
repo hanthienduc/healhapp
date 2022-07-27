@@ -34,7 +34,7 @@
   background-color: var(--primary-logo-icon);
   color: var(--white);
 }
-.active {
+.button-active {
   background-color: var(--primary-logo-icon);
   color: var(--white);
 }

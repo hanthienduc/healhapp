@@ -35,9 +35,9 @@ function NavBar() {
             <nav className="navbar">
                 <ul className="navbar-list">
                     <CustomListItem to={'myrecord'} src={icon_memo} text={'自分の記録'} />
-                    <CustomListItem to={'/'} src={icon_challenge} text={'チャレンジ'} />
+                    <CustomListItem to={'challenge'} src={icon_challenge} text={'チャレンジ'} />
                     <div className='notice'>
-                        <CustomListItem to={'/'} src={icon_info} text={'お知らせ'} />
+                        <CustomListItem to={'notice'} src={icon_info} text={'お知らせ'} />
                         <span className='notice-count'>{noticeCount}</span>
                     </div>
                     <div className='dropdown-menu'>
@@ -47,11 +47,11 @@ function NavBar() {
                             alt={'menu'} />
                         <ul className='dropdown-list' style={dropdownStyle}  >
                             <li><Link to={'myrecord'}>自分の記録</Link></li>
-                            <li><Link to={'/'}>体重グラフ</Link></li>
-                            <li><Link to={'/'}>目標</Link></li>
-                            <li><Link to={'/'}>選択中のコース</Link></li>
+                            <li><Link to={''}>体重グラフ</Link></li>
+                            <li><Link to={''}>目標</Link></li>
+                            <li><Link to={''}>選択中のコース</Link></li>
                             <li><Link to={'/column'}>コラム一覧</Link></li>
-                            <li><Link to={'/'}>設定</Link></li>
+                            <li><Link to={''}>設定</Link></li>
                         </ul>
                     </div>
                 </ul>
