@@ -42,7 +42,7 @@ function NavBar() {
                             <CustomDropDownListItem handleClick={toggleDropDown}
                                 to={'selectcourse'} title={'選択中のコース'} />
                             <CustomDropDownListItem handleClick={toggleDropDown}
-                                to={'myrecord'} title={'コラム一覧'} />
+                                to={'column'} title={'コラム一覧'} />
                             <CustomDropDownListItem handleClick={toggleDropDown}
                                 to={'setting'} title={'設定'} />
                         </ul>
