@@ -6,9 +6,21 @@
 html {
   scroll-behavior: smooth;
 }
+
+@font-face {
+  font-family: 'Inter';
+  src: local('Inter'), url('./fonts/Inter-Regular.ttf') format('truetype');
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: 'Noto';
+  src: local('Noto'), url('./fonts/NotoSansJP-Regular.otf') format('truetype');
+  font-weight: normal;
+}
 :root {
   --font-inter: 'Inter', sans-serif;
-  --font-noto: 'Noto Sans JP', sans-serif;
+  --font-noto: 'Noto', sans-serif;
   --white: #ffffff;
   --primary-logo-icon: #ffcc21;
   --primary-notification: #ff963c;
