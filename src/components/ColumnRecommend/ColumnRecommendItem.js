@@ -1,8 +1,8 @@
 import './ColumnRecommend.css'
 
-function ColumnRecommendItem({ title, subtitle }) {
+function ColumnRecommendItem({ id, title, subtitle, handleSelectCategory }) {
     return (
-        <div className="recommend-item">
+        <div onClick={(e) => handleSelectCategory(e, id)} className="recommend-item">
             <p className="item-title">{title}</p>
             <div className="break" />
             <p className="item-subtitle">{subtitle}</p>
