@@ -17,6 +17,7 @@ function useNavBar() {
             }
         })
     }
+
     return {
         isShownDropDown,
         noticeCount,

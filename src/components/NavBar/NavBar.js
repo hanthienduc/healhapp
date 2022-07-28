@@ -7,7 +7,8 @@ import icon_close from '../../assets/menu-icon/icon_close.png'
 import icon_challenge from '../../assets/menu-icon/icon_challenge.png'
 import "./NavBar.css"
 import useNavBar from '../../hooks/useNavBar'
-import CustomListItem from '../../utils/CustomListItem'
+import CustomListItem from './CustomListItem'
+import CustomDropDownListItem from './CustomDropDownListItem'
 
 function NavBar() {
 
@@ -32,18 +33,24 @@ function NavBar() {
                             src={isShownDropDown ? icon_close : icon_menu}
                             alt={'menu'} />
                         <ul className='dropdown-list' style={dropdownStyle}  >
-                            <li><Link to={'myrecord'}>自分の記録</Link></li>
-                            <li><Link to={'myrecord'}>体重グラフ</Link></li>
-                            <li><Link to={'myrecord'}>目標</Link></li>
-                            <li><Link to={'myrecord'}>選択中のコース</Link></li>
-                            <li><Link to={'/column'}>コラム一覧</Link></li>
-                            <li><Link to={''}>設定</Link></li>
+                            <CustomDropDownListItem handleClick={toggleDropDown}
+                                to={'myrecord'} title={'自分の記録'} />
+                            <CustomDropDownListItem handleClick={toggleDropDown}
+                                to={'myrecord'} title={'体重グラフ'} />
+                            <CustomDropDownListItem handleClick={toggleDropDown}
+                                to={'mygoal'} title={'目標'} />
+                            <CustomDropDownListItem handleClick={toggleDropDown}
+                                to={'selectcourse'} title={'選択中のコース'} />
+                            <CustomDropDownListItem handleClick={toggleDropDown}
+                                to={'myrecord'} title={'コラム一覧'} />
+                            <CustomDropDownListItem handleClick={toggleDropDown}
+                                to={'setting'} title={'設定'} />
                         </ul>
                     </div>
                 </ul>
 
-            </nav>
-        </header>
+            </nav >
+        </header >
     )
 }
 
