@@ -2,9 +2,8 @@ import './MyRecordGraph.css'
 import { Line } from 'react-chartjs-2'
 import useRecordData from '../../hooks/useRecordData'
 import BodyRecordData from '../../BodyRecordData'
-import { useState } from 'react'
 import SelectDateButton from './SelectDateButton'
-import { nanoid } from 'nanoid'
+import useMyRecordData from '../../hooks/useMyRecordData'
 
 function MyRecordGraph() {
     const { options, data } = useRecordData(BodyRecordData, {
@@ -13,39 +12,8 @@ function MyRecordGraph() {
         top: 20,
         bottom: 5
     })
-    const [recordData, setRecordData] = useState(BodyRecordData)
-    const [selectDateButtons, setSelectDateButtons] = useState([
-        {
-            id: nanoid(),
-            text: '日',
-            isHeld: false
-        },
-        {
-            id: nanoid(),
-            text: '週',
-            isHeld: false
-        },
-        {
-            id: nanoid(),
-            text: '月',
-            isHeld: false
-        },
-        {
-            id: nanoid(),
-            text: '年',
-            isHeld: true
-        },
-    ])
 
-    function handleSelectDate(event, buttonId) {
-        setSelectDateButtons(prevSelectDateButtonState => {
-            return prevSelectDateButtonState.map(button => {
-                return button.id === buttonId
-                    ? { ...button, isHeld: true }
-                    : { ...button, isHeld: false }
-            })
-        })
-    }
+    const { recordData, selectDateButtons, handleSelectDate } = useMyRecordData(BodyRecordData)
 
     return (
         <div className='my-record-graph'>
