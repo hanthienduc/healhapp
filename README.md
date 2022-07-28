@@ -18,6 +18,14 @@
 - "react-circular-progressbar": "^2.1.0",-> for display circular progressbar （ライングラフを表示のため）
 - "react-router-dom": "^6.3.0", -> for handling the navigation between pages （各ページを遷移するためのライブラリ）
 
+### Photos, pictures, and screen captures img was in src/assets folder
+
+### 画像は src/assets フォルダに保存しております
+
+### MyExerciseData.js, MyRecordDiaryData.js, photoData.js, RecordData.js images link to files in public/images folder
+
+### MyExerciseData.js, MyRecordDiaryData.js, photoData.js, RecordData.js にある画像リンク先は public/images フォルダに保存しております
+
 ## Pages & Components & Hooks & Context in the app
 
 ## アプリに各ページ、コンポネント、Hooks、Context API の一覧
