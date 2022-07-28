@@ -150,7 +150,7 @@ const ColumnRecommendData = [
         recommendList: [
             {
                 id: '1',
-                img: '../../images/column/-1.jpg',
+                img: '../../images/column/column-1.jpg',
                 date: '2021.05.17',
                 time: '23:25',
                 description: '魚を食べて頭もカラダも元気に！知っておきたい魚を食べるメリ…',
